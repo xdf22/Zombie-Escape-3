@@ -38,6 +38,43 @@ ZE2.ZombieConfig = {
 			*/
 		}
 	},
+	["ranged"] = {
+		skin = "ztails",
+		skincolor = SKINCOLOR_ZOMBIE,
+		normalspeed = 20 * FRACUNIT,
+		health = 4000,
+		charability = CA_NONE,
+		charability2 = CA2_NONE,
+		actionspd = 9*FRACUNIT,
+		killaward = 5,
+		knockback_multiplier = (3*FU)/2,
+		inventory_limit = 1,
+		items = {
+			"insta_burst";
+		},
+		special = {
+			button = 0,
+		}
+	},
+	["heavy"] = {
+		skin = "zknuckles",
+		skincolor = SKINCOLOR_ZOMBIE,
+		normalspeed = 16 * FRACUNIT,
+		health = 12000,
+		charability = CA_NONE,
+		charability2 = CA2_NONE,
+		jumpfactor = ZE2.StandardJumpFactor,
+		actionspd = 9*FRACUNIT,
+		killaward = 10,
+		knockback_multiplier = 8*(FU/10),
+		inventory_limit = 1,
+		items = {
+			"insta_burst";
+		},
+		special = {
+			button = 0,
+		}
+	},
 	["alpha"] = {
 		name = "Alpha",
 		skin = "zsonic",
